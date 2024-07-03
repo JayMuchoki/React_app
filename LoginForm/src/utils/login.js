@@ -7,6 +7,6 @@ export function login({ email, password }) {
         } else {
           reject(new Error("Invalid email or password"));
         }
-      }, 1000); // Simulate network delay
+      }, 1000); 
     });
   }
